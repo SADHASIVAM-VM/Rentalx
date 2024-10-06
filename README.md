@@ -15,20 +15,6 @@ RentalX is a fully responsive car rental platform that allows users to easily br
 - **TailwindCSS**: Utility-first CSS framework for styling the application.
 - **ShadCN UI**: A component library for React used to create beautiful user interfaces.
 
-## Getting Started
+### WEBSITE LINK 
+- Check the Website [RenatX](https://rentalx-one.vercel.app/) ✔️
 
-To run this project locally, follow the steps below:
-
-### Prerequisites
-
-- Make sure you have [Node.js](https://nodejs.org/) installed.
-- Install [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) for package management.
-
-### Installation
-
-# Clone the repository:
-   ```bash
-   git clone https://github.com/SADHASIVAM-VM/rentalx.git
-
-
-### Demo Link 
