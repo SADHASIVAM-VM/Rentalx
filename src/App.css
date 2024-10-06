@@ -1,0 +1,73 @@
+
+*{
+    color: white;
+    scroll-behavior: smooth;
+ }
+ body{
+    background: #000;
+    
+    height: max-content;
+ }
+ .glass{
+background: #4141416a;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+
+ }
+ .glass input{
+    background: transparent;
+ }
+ .backdrop{
+   
+        position: absolute;
+        inset: 0;
+        padding: 2rem;
+        background-image: linear-gradient(
+          to bottom right,
+          rgba(0, 0, 0, 1),
+          rgba(0, 0, 0, 0.1) 50%,
+          rgba(0, 0, 0, 0.75)
+        );
+        border-radius: 20px;
+ }
+ .box:hover img{
+    transition: .3s;
+    transform: scale(1.2); 
+ }
+ .box img{
+   transition: .3s;
+ 
+}
+ .box:hover .backdrop {
+
+    z-index: 10;
+   
+   
+ }
+.showAnimation{
+animation: show .5s linear ;
+
+}
+@keyframes show {
+   0%{
+      transform: scale(0.5);
+      opacity: 0;
+   }
+   
+   100%{
+      transform: scale(1);
+      opacity: 1;
+   }
+   
+}
+
+ .category::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px; 
+  }
+  
+footer{
+ background-image: url('../public/bmww.jpg');
+}
