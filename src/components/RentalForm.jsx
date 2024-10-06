@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import navigation from '../assets/icons/mapLoc.svg'
 import call from '../assets/icons/call.svg'
+import { toast } from 'react-toastify';
 
 
 const RentalForm = () => {
@@ -17,7 +18,24 @@ const RentalForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
+   //console.log('Form Data:', formData);
+   toast.success('Requested Successfully', {
+    position: "top-center",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    });
+    const emptyFormData = Object.keys(formData).reduce((acc, key) => {
+      acc[key] = '';
+      return acc;
+     
+    }, {});
+
+    setFormData(emptyFormData); 
   };
 
   return (

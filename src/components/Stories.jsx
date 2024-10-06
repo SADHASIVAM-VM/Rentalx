@@ -7,8 +7,9 @@ const Stories = () => {
   return (
     <div className=' md:mb-40 min-h-[400px] '>
       <h1 className='text-xl md:text-4xl lg:text-6xl  md:text-left  font-bold '>STORIES BEHIND THE WHEEL</h1>
-      <div className="flex flex-col md:flex-row gap-5 story ">
-      <div className=" mt-10 border border-[#2d2d2d] p-5 rounded-xl">
+      <div className="flex flex-col md:flex-row gap-5 story mt-10 ">
+
+      <div className=" border border-[#2d2d2d] p-5 rounded-xl">
       <div className="">
             <h1 className=' items-center bg-gray-100 border border-b-gray-300 px-2 p-[3px] rounded-lg inline-flex' ><span className='font-bold font-mono text-black'>23 Jan 2024</span></h1>
         </div>
@@ -24,7 +25,7 @@ const Stories = () => {
         </div>
       </div>
 
-      <div  className=" my-5 border border-[#2d2d2d] p-5 rounded-xl">
+      <div  className=" border border-[#2d2d2d] p-5 rounded-xl">
       <div className="">
             <h1 className=' items-center bg-gray-100 border border-b-gray-300 px-2 p-[3px] rounded-lg inline-flex' ><span className='font-bold font-mono text-black'>20 Mar 2024</span></h1>
         </div>

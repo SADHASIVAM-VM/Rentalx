@@ -14,7 +14,7 @@ const Hero = () => {
         <span className='text-yellow-400'> World-Wide</span></h1>
         
         <div className="p-2 my-2">
-        <p className='opacity-75'>RentalX is a modern car rental platform offering a seamless booking experience with a wide range of vehicles to choose from. Designed for convenience and flexibility, RentalX allows users to rent cars quickly and efficiently, ensuring a smooth journey from start to finish.</p>
+        <p className='opacity-85 md:text-[1.1rem]'>RentalX is a modern car rental platform offering a seamless booking experience with a wide range of vehicles to choose from. Designed for convenience and flexibility, RentalX allows users to rent cars quickly and efficiently, ensuring a smooth journey from start to finish.</p>
         </div>
         <button className='border border-gray-400 p-2 sm:p-3 text-sm sm:text-md  rounded-md flex items-center gap-2'>Explore More <img src={right} alt="" className='w-5'/></button>
         

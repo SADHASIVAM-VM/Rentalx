@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero from './components/hero'
 import './App.css'
 import LadingPage from './page/LadingPage'
 const App = () => {

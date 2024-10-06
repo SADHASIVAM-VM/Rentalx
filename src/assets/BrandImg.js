@@ -59,3 +59,43 @@ export const selectCar =[
     rent:"14,500"
    }
 ]
+
+import range1 from "../assets/imgs/range-1.jpg";
+import range2 from "../assets/imgs/range-2.jpg";
+import range3 from "../assets/imgs/range-3.jpg";
+import range4 from "../assets/imgs/range-4.jpg";
+
+export const Cato =[
+    {
+        img : range1,
+        title:"CARS"
+    },
+    {
+        img : range2,
+        title:"SUVS"
+    },
+    {
+        img : range3,
+        title:"VANS"
+    },
+    {
+        img : range4,
+        title:"EV's"
+    },
+    {
+        img : range1,
+        title:"CARS"
+    },
+    {
+        img : range2,
+        title:"SUVS"
+    },
+    {
+        img : range3,
+        title:"VANS"
+    },
+    {
+        img : range4,
+        title:"EV's"
+    },
+]
